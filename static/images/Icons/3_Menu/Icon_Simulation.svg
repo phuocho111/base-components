@@ -1,0 +1,15 @@
+<svg id="Icon_Simulation" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon" transform="translate(0 2.5)">
+    <path id="パス_58" data-name="パス 58" d="M4.531,17,2.052,18.5A12.32,12.32,0,0,1,.5,12.5,11.759,11.759,0,0,1,12,.5a11.758,11.758,0,0,1,11.5,12,12.33,12.33,0,0,1-1.551,6L19.469,17" transform="translate(0 -0.001)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_41" data-name="線 41" y2="3" transform="translate(12 0.499)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_42" data-name="線 42" x2="1.5" y2="2.598" transform="translate(6.233 2.107)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_43" data-name="線 43" x2="2.598" y2="1.5" transform="translate(2.108 6.499)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_44" data-name="線 44" x2="3" transform="translate(0.5 12.5)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_45" data-name="線 45" x1="3" transform="translate(20.5 12.5)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_46" data-name="線 46" x1="2.598" y2="1.5" transform="translate(19.294 6.499)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_47" data-name="線 47" x1="1.5" y2="2.598" transform="translate(16.267 2.107)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="楕円形_17" data-name="楕円形 17" cx="1.5" cy="1.5" r="1.5" transform="translate(10.5 11)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_48" data-name="線 48" x1="3.237" y1="3.237" transform="translate(7.831 8.202)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

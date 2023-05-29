@@ -1,0 +1,35 @@
+.base-tab {
+  .tab-contents {
+    .tab-items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      border-bottom: 4px solid $main_color;
+      .tab-item {
+        background-color: $input_bg;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px 4px 0px 0px;
+        padding: 4px 10px;
+        cursor: pointer;
+        &.active {
+          color: black;
+          background-color: $main_color;
+          border-bottom: 3px solid $main_color;
+
+          &:hover {
+            color: black;
+            background-color: $main_color;
+            border-bottom: 3px solid $main_color;
+          }
+        }
+        &:hover {
+          color: white;
+          background-color: $lynch_color;
+          border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}

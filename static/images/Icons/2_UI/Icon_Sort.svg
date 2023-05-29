@@ -1,0 +1,10 @@
+<svg id="Icon_Sort" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.001" height="10" viewBox="0 0 12.001 10">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="合体_1" data-name="合体 1" d="M0,10V8H12v2ZM0,7V6H12V7ZM0,5V4H12V5ZM0,3V2H12V3ZM0,1V0H12V1Z" fill="#5b758c"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Sort-2" data-name="Icon_Sort" clip-path="url(#clip-path)">
+    <path id="Mask" d="M6,0l6,10H0Z" transform="translate(12 10) rotate(180)" fill="#5b758c"/>
+  </g>
+</svg>

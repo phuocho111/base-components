@@ -1,0 +1,60 @@
+.header-jump {
+  min-width: 34px;
+  height: 34px;
+  z-index: 1;
+  background-image: url(/images/Icons/2_UI/Icon_Column_Jump.svg);
+  background-position: center;
+  background-color: $bunker_color;
+  margin-top: 0px !important;
+}
+.header-jump:hover {
+  background-image: url(/images/Icons/2_UI/Icon_Column_Jump_Hover.svg);
+  background-color: $main_color;
+}
+.menu-popover {
+  width: 300px;
+  max-height: 330px;
+  background: $river_bed;
+  border-radius: 6px;
+  padding: 0 !important;
+  overflow: auto !important;
+  cursor: default;
+}
+.menu-popover-content {
+  border-bottom: 1px solid $lynch_color;
+  color: white !important;
+  background-color: $river_bed !important;
+  width: 300px;
+  min-height: 39px;
+  cursor: pointer;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  &.hidden-element {
+    pointer-events: none;
+    color: $lynch_color !important;
+  }
+  &:hover {
+    border-bottom: 1px solid $picton_blue_color;
+    color: $picton_blue_color !important;
+    &::before {
+      background-color: unset;
+    }
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::v-deep .base-table .v-data-table__wrapper {
+  overflow: hidden !important;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.hidden-model {
+  display: none !important;
+}

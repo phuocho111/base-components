@@ -1,0 +1,12 @@
+<svg id="Icon_Setting_Export" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_326" data-name="長方形 326" width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon" transform="translate(2 2)" clip-path="url(#clip-path)">
+    <path id="パス_107" data-name="パス 107" d="M10.564,13.768V.5M4.326,7.619,10.564.5,16.8,7.2" transform="translate(-0.564 -0.065)" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="パス_108" data-name="パス 108" d="M.5,14.795v6.7H19.63v-6.7" transform="translate(-0.065 -1.93)" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+.base-panel-error {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $black-color;
+  ::v-deep .base-icon {
+    margin-bottom: 24px;
+  }
+  .message {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.7px;
+    font-family: 'Noto Sans JP';
+    line-height: 26px;
+    color: $white-color;
+  }
+}
+
+.on-modal {
+  height: 190px !important;
+}
+
+@media only screen and (max-width: 599px) {
+  .on-modal {
+    height: fit-content !important;
+  }
+}

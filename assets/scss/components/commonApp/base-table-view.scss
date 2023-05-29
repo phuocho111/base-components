@@ -1,0 +1,135 @@
+.row-table,
+.title-table {
+  vertical-align: middle !important;
+}
+
+.title-table {
+  justify-content: space-between;
+  align-items: center;
+  background: $section-black_color !important;
+  height: 34px !important;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-table {
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+.panel-table {
+  overflow-x: auto;
+  border-left: 1px solid $input_bg;
+  border-bottom: 1px solid $input_bg;
+  .panel-header {
+    background-color: $section-black_color;
+    color: $white-color !important;
+
+    > div {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      line-height: 26px;
+    }
+  }
+
+  .panel-header,
+  .panel-item {
+    line-height: 40px;
+  }
+  .panel-item {
+    .content-table {
+      vertical-align: middle;
+      max-width: 300px;
+    }
+  }
+
+  tbody {
+    background-color: $black_color;
+    width: 100%;
+
+    .row-table:hover {
+      background-color: transparent !important;
+    }
+    .row-table {
+      &:nth-child(odd) {
+        .content-table {
+          background-color: $mirage_color !important;
+        }
+      }
+      &:nth-child(even) {
+        .content-table {
+          background-color: $mirage_black_color !important;
+        }
+      }
+    }
+  }
+}
+
+.table-sort {
+  cursor: pointer;
+  transition: 0.3s;
+  &.dest {
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+}
+.active-sort {
+  display: none;
+}
+
+.row-table {
+  box-shadow: 0 1px 0 $input_bg;
+  .content-table {
+    vertical-align: center;
+    &:first-child {
+      div {
+        width: 48px !important;
+        text-align: center;
+      }
+    }
+  }
+}
+.content-table {
+  vertical-align: middle !important;
+  height: 40px !important;
+  background: $black_color !important;
+  div {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    width: max-content;
+  }
+}
+
+.elipsic {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::v-deep .base-table .v-data-table__wrapper {
+  max-height: unset !important;
+  overflow: hidden !important;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+.scroller {
+  width: max-content;
+  overflow: auto;
+}
+.scroller-container {
+  max-width: 100%;
+  overflow: auto;
+  max-height: 60vh;
+}

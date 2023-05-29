@@ -1,0 +1,27 @@
+.common-btn {
+  min-width: 78px;
+  color: $black_color !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.7px !important;
+  box-shadow: none;
+
+  &.disabled {
+    background: $mirage_color !important;
+    pointer-events: none;
+    background-color: $mirage_color !important;
+
+    .v-btn__content {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 24px;
+      color: $pickled_bluewood_color !important;
+    }
+  }
+
+  &:disabled {
+    background-color: $mirage_color !important;
+  }
+  &:visited {
+    background-color: $input_bg !important;
+  }
+}

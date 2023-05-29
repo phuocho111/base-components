@@ -1,0 +1,16 @@
+<svg id="Icon_Setting_Subsidy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_325" data-name="長方形 325" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon">
+    <path id="パス_106" data-name="パス 106" d="M8.026,6.444,11.5,11.461v6.562M14.974,6.444,11.5,11.461M7.419,13.249h8.162M7.419,15.822h8.162" transform="translate(0.5 0.564)" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="グループ_34" data-name="グループ 34">
+      <g id="グループ_33" data-name="グループ 33" clip-path="url(#clip-path)">
+        <circle id="楕円形_25" data-name="楕円形 25" cx="11.478" cy="11.478" r="11.478" transform="translate(0.522 0.522)" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

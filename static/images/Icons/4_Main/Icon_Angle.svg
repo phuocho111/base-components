@@ -1,0 +1,13 @@
+<svg id="Icon_Angle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_38" data-name="長方形 38" width="28" height="20" transform="translate(0 0)" fill="rgba(0,0,0,0)" stroke="#5b758c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="36" height="36" fill="none"/>
+  <g id="Icon" transform="translate(4 8)" clip-path="url(#clip-path)">
+    <path id="パス_39" data-name="パス 39" d="M27.991,19.5H.5L19.938.354" transform="translate(0.009 0.001)" fill="rgba(0,0,0,0)" stroke="#5b758c" stroke-width="1"/>
+    <path id="パス_40" data-name="パス 40" d="M11.814,8.131a15.873,15.873,0,0,1,4.771,11.345" transform="translate(0.215 0.022)" fill="rgba(0,0,0,0)" stroke="#5b758c" stroke-width="1"/>
+    <ellipse id="楕円形_3" data-name="楕円形 3" cx="2.036" cy="2.006" rx="2.036" ry="2.006" transform="translate(18.499 6.612)" fill="rgba(0,0,0,0)" stroke="#5b758c" stroke-width="1"/>
+  </g>
+</svg>

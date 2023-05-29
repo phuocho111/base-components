@@ -1,0 +1,53 @@
+.base-icon {
+  display: inline-block;
+  vertical-align: baseline;
+  &.filter_picton_blue_color {
+    filter: $filter_picton_blue_color;
+  }
+  &.filter_lynch_color {
+    filter: $filter_lynch_color;
+  }
+  &.filter_green_color {
+    filter: $filter_green_color;
+  }
+  &.filter_night_shadz_color {
+    filter: $filter_night_shadz_color;
+  }
+  &.filter_pickled_bluewood_color {
+    filter: $filter_pickled_bluewood_color;
+  }
+  &.filter_black {
+    filter: $filter_black;
+  }
+  &:hover {
+    &.hover-filter_picton_blue_color {
+      filter: $filter_picton_blue_color;
+    }
+    &.hover-filter_lynch_color {
+      filter: $filter_lynch_color;
+    }
+    &.hover-filter_green_color {
+      filter: $filter_green_color;
+    }
+    &.hover-filter_night_shadz_color {
+      filter: $filter_night_shadz_color;
+    }
+    &.hover-filter_pickled_bluewood_color {
+      filter: $filter_pickled_bluewood_color;
+    }
+    &.hover-filter_black {
+      filter: $filter_black;
+    }
+  }
+  &.rotate {
+    &_90 {
+      transform: rotate(90deg);
+    }
+    &_180 {
+      transform: rotate(180deg);
+    }
+    &_270 {
+      transform: rotate(270deg);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.container-confirm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  transform: translateY(-1px);
+}
+.btn-confirm {
+  background: $pickled_bluewood_color !important;
+  border-radius: 2px !important;
+}

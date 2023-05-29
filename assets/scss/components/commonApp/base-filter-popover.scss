@@ -1,0 +1,108 @@
+.container-popover {
+  max-width: 320px;
+  padding-top: 2px;
+  ::v-deep .base-input {
+    .icon-search {
+      top: 9px !important;
+    }
+    .v-input__control {
+      min-height: 34px;
+      .v-input__slot {
+        padding: 3px 40px 3px 15px !important;
+      }
+    }
+  }
+}
+.card {
+  background: $limed_spruce_color;
+}
+.card-list {
+  border-radius: 0 !important;
+  background: $limed_spruce_color;
+  padding: 0;
+  position: relative;
+  height: 238px;
+  overflow-y: auto !important;
+  background-color: $mirage_color;
+  margin: 10px 10px 0;
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 16px;
+    position: relative;
+    background-color: $mirage_color;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    height: 16px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    &:vertical {
+      background-image: url('/images/Icons/9_Scrollbar/ScrollBtn.png');
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 6px 100%;
+    }
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: $mirage_color;
+  }
+}
+.card-list-item {
+  background: $mirage_color;
+  min-height: 34px;
+  .v-list-item__action {
+    margin: 0px;
+  }
+}
+
+.v-list-item {
+  padding: 0 10px;
+}
+
+.card-list-first-item {
+  background-color: $black-color;
+}
+
+.card-list-item:hover {
+  background: black;
+}
+
+.card-item-title {
+  color: $white-color;
+}
+.card-action {
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.btn-filter {
+  padding: 5px 12px !important;
+  width: 93.33px;
+  height: 34px !important;
+  border-radius: 2px !important;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.65px !important;
+}
+.v-menu__content {
+  margin-top: 25px;
+}
+
+::v-deep #filter-loading {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.base-icon {
+  cursor: pointer !important;
+}
+
+.search-bar {
+  padding: 8px 10px 0;
+}

@@ -1,0 +1,30 @@
+.base-dialog {
+  .content {
+    background-color: $limed_spruce_color;
+    text-align: center;
+    padding: 30px 20px 20px;
+    line-height: 0;
+    .message {
+      font-family: Noto Sans JP;
+      padding-top: 30px;
+      word-break: break-all;
+      white-space: pre-wrap;
+      color: white;
+      text-align: center;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: 0.7px;
+    }
+  }
+  .action {
+    padding: 10px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    background-color: $bunker_color;
+  }
+}
+::v-deep .base-dialog.v-dialog {
+  border-radius: 0 !important;
+}

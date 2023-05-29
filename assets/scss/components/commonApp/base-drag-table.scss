@@ -1,0 +1,197 @@
+@import '~vuetify/src/styles/styles.sass';
+.base-drag-scroll-table {
+  position: relative;
+  width: 100%;
+  .table-container {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+  }
+  .p-40 {
+    padding-left: 10px !important;
+    @media #{map-get($display-breakpoints, 'sm-and-up')} {
+      padding-left: 30px !important;
+    }
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      padding-left: 40px !important;
+    }
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  .table {
+    width: 100%;
+    min-width: max-content;
+    border-collapse: collapse;
+    overflow: auto;
+    height: fit-content;
+    .thead {
+      .th {
+        position: sticky;
+        top: 0;
+        color: $white-color;
+        background-color: $black-color;
+        white-space: nowrap;
+        border-collapse: collapse;
+        text-align: left;
+        padding: 4px 10px;
+        height: 34px;
+        font-size: 14px;
+        font-weight: 400;
+        vertical-align: middle;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.7px;
+        z-index: 1;
+        &:last-child {
+          position: sticky;
+          right: 0;
+          z-index: 1;
+          padding: 0;
+        }
+      }
+    }
+    .tbody {
+      .tr {
+        background-color: $mirage_black_color;
+        &:nth-of-type(odd) {
+          background-color: $mirage_color;
+        }
+      }
+      .td {
+        box-shadow: inset 0px -1px black;
+        padding: 4px 10px;
+        border-left: none;
+        border-right: none;
+        white-space: nowrap;
+        height: 34px;
+        vertical-align: middle;
+        font-family: 'Noto Sans JP';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.7px;
+        &:first-child {
+          border-left: $black-color;
+        }
+        &.action {
+          border-right: $black-color;
+          position: sticky;
+          right: 0;
+          background-color: $mirage_light_color;
+          // box-shadow: inset 0 0 25px $white-color;
+        }
+      }
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+.action-table {
+  background-color: $input_bg;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25) !important;
+  border-bottom: 1px solid black !important;
+  min-height: 34px;
+}
+.action-edit-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px !important;
+  min-height: 34px;
+}
+.action-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px !important;
+  height: 34px;
+}
+.delete-container {
+  padding: 25px 8px 0 0;
+  display: block;
+  position: absolute;
+}
+.filter-container {
+  display: block;
+  position: absolute;
+  background: $limed_spruce_color;
+  border-radius: 4px;
+}
+.menu-list {
+  width: 300px;
+  height: 50px;
+  background: $river_bed;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.74902);
+  border-radius: 6px;
+  padding: 0;
+}
+.list-item {
+  padding: 0;
+  min-height: 0px;
+  border-bottom: 1px solid $lynch_color;
+  display: flex;
+  align-items: center;
+}
+.list-item:hover {
+  cursor: pointer;
+  border-bottom: 1px solid $main_color;
+  .item-icon {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(38%) saturate(840%)
+      hue-rotate(143deg) brightness(101%) contrast(96%);
+  }
+  .item-title {
+    color: $main_color;
+  }
+}
+.item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.item-title {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  color: $white-color;
+}
+.header-title {
+  margin-right: 10px;
+}
+
+.column-jump-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.table-loading {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

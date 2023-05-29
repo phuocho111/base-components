@@ -1,0 +1,15 @@
+<svg id="Icon_Popup_Alert" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="60" viewBox="0 0 72 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_316" data-name="長方形 316" width="68.851" height="56.526" transform="translate(0 0)" fill="none" stroke="#0d141a" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="72" height="60" fill="none"/>
+  <g id="Icon" transform="translate(1 2)" clip-path="url(#clip-path)">
+    <line id="線_65" data-name="線 65" x2="60.5" transform="translate(8.351 55.526)" fill="none" stroke="#0d141a" stroke-linejoin="round" stroke-width="2"/>
+    <line id="線_66" data-name="線 66" x1="30.06" y2="48.627" transform="translate(0.851 6.899)" fill="none" stroke="#0d141a" stroke-linejoin="round" stroke-width="2"/>
+    <line id="線_67" data-name="線 67" x1="30.06" y1="48.627" transform="translate(34.851 0.526)" fill="none" stroke="#0d141a" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="楕円形_23" data-name="楕円形 23" cx="2.25" cy="2.25" r="2.25" transform="translate(32.705 43.026)" fill="none" stroke="#0d141a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="パス_92" data-name="パス 92" d="M34.955,38.026l3-15h-6Z" fill="none" stroke="#0d141a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

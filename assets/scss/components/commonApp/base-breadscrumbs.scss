@@ -1,0 +1,22 @@
+.base-breadscrumbs {
+  display: inline-block;
+  .breadscrumb-item {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.7px;
+    color: $picton_blue_color;
+    &:last-of-type {
+      color: white;
+      cursor: default;
+      pointer-events: none;
+      text-decoration: none;
+    }
+  }
+
+  .breadscrumb-divider {
+    margin: 0 10px;
+  }
+}

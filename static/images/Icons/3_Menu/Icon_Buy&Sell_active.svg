@@ -1,0 +1,12 @@
+<svg id="Icon_Buy_Sell" data-name="Icon_Buy&amp;Sell" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_33" data-name="長方形 33" width="20" height="20" fill="none" stroke="#22C5E6" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon" transform="translate(2 2)" clip-path="url(#clip-path)">
+    <path id="パス_28" data-name="パス 28" d="M.5,8.044H19.7L12.1.354" transform="translate(-0.1 -0.068)" fill="none" stroke="#22C5E6" stroke-width="1"/>
+    <path id="パス_29" data-name="パス 29" d="M19.7,14.854H.5l7.6,7.69" transform="translate(-0.1 -2.83)" fill="none" stroke="#22C5E6" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+.cell-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $rock_blue_color;
+  width: 100%;
+  height: 26px;
+  padding: 3px 8px;
+  height: 26px;
+  border-radius: 4px;
+  box-shadow: inset 0px 2px 4px $semi_black;
+  min-width: 85px;
+  &.input-error {
+    border: 3px solid $cranberry_color;
+    padding: 3px 5px;
+    box-shadow: none;
+  }
+  .cell-input {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: $lynch_color;
+    }
+  }
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  &:focus-within {
+    border: 3px solid $picton_blue_color;
+    padding: 3px 5px;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,34 @@
+.base-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  .common-btn {
+    min-width: 40px !important;
+    &:hover {
+      .base-icon {
+        filter: $filter_pickled_bluewood_color;
+      }
+    }
+  }
+  .common-btn .disable {
+    .base-icon {
+      filter: $filter_pickled_bluewood_color !important;
+    }
+  }
+  ::v-deep .v-text-field {
+    margin: 0 10px !important;
+    padding-top: 0 !important;
+    .v-select__selection {
+      margin-left: 10px;
+    }
+  }
+
+  .bg-disable {
+    background-color: $mirage_light_color !important;
+  }
+}
+
+::v-deep .base-icon {
+  cursor: pointer !important;
+}

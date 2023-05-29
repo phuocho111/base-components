@@ -1,0 +1,11 @@
+<svg id="Icon_Hub" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_300" data-name="長方形 300" width="16" height="22" transform="translate(0 0)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="22" height="22" transform="translate(0 0)" fill="none"/>
+  <g id="Icon" transform="translate(3 0)" clip-path="url(#clip-path)">
+    <path id="パス_59" data-name="パス 59" d="M11.375,9.01A3.375,3.375,0,1,1,8,5.59,3.4,3.4,0,0,1,11.375,9.01ZM15.5,5.569,8,.6.5,5.569v7.279l5.27,3.494L8,20.86l2.229-4.517L15.5,12.848Z" transform="translate(0 0.008)" fill="none" stroke="#5b758c" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

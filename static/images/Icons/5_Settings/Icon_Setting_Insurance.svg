@@ -1,0 +1,17 @@
+<svg id="Icon_Setting_Insurance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_324" data-name="長方形 324" width="18.368" height="23" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon" transform="translate(3 1)">
+    <g id="グループ_31" data-name="グループ 31">
+      <g id="グループ_30" data-name="グループ 30" clip-path="url(#clip-path)">
+        <path id="パス_103" data-name="パス 103" d="M.5.5v22H17.868V6.164L12.217.5Z" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="パス_104" data-name="パス 104" d="M12.217.5V6.164h5.652" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <path id="パス_105" data-name="パス 105" d="M13.237,12.884H10.632v-2.6H7.737v2.6h-2.6v2.9h2.6v2.6h2.895v-2.6h2.605Z" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,116 @@
+@import '~vuetify/src/styles/styles.sass';
+.pagination-container {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  left: 1px;
+  bottom: 52px;
+  padding: 0 20px;
+  background: rgba(0, 0, 0, 0.35);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(25px);
+  @media #{map-get($display-breakpoints, 'md-and-up')} {
+    bottom: 0;
+    padding: 0 40px;
+  }
+}
+
+.has-slot {
+  height: 132px;
+  @media #{map-get($display-breakpoints, 'sm-and-up')} {
+    height: 72px;
+  }
+}
+
+.pagination-container:empty {
+  visibility: hidden;
+}
+
+.base-pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  .ml-5 {
+    margin-left: 0 !important;
+  }
+  @media #{map-get($display-breakpoints, 'sm-and-up')} {
+    flex-direction: row;
+    gap: 0;
+    .ml-5 {
+      margin-left: 20px !important;
+    }
+  }
+  & > div:not(:only-child) {
+    flex: 1 1 auto;
+  }
+  .slot-container:empty {
+    display: none;
+  }
+  &-container {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    .pulldown {
+      flex: 1 1 auto;
+    }
+  }
+  ::v-deep .prevent-events-none {
+    pointer-events: none;
+  }
+  ::v-deep .v-text-field {
+    margin: 0 10px !important;
+    padding-top: 0 !important;
+    .v-select__selection {
+      margin-left: 10px;
+      width: 100%;
+      text-align: center;
+    }
+    .v-select__selections {
+      input {
+        width: 0 !important;
+      }
+    }
+  }
+  ::v-deep .common-btn {
+    box-sizing: border-box;
+    min-width: 40px !important;
+    &:not(:disabled) {
+      &:hover {
+        .base-icon {
+          filter: $filter_lynch_color;
+        }
+      }
+      .base-icon {
+        cursor: pointer !important;
+      }
+    }
+  }
+}
+.base-pagination .common-btn.default {
+  &:hover {
+    background-color: $picton_blue_color !important;
+    .base-icon {
+      filter: brightness(0%);
+    }
+  }
+  &:focus {
+    background-color: $mirage_light_color !important;
+  }
+
+  &:active {
+    .base-icon {
+      filter: brightness(0) saturate(100%) invert(65%) sepia(100%)
+        saturate(840%) hue-rotate(151deg) brightness(91%) contrast(98%);
+    }
+    .button-icon {
+      filter: none;
+    }
+
+    border: 1px solid $picton_blue_color !important;
+  }
+}

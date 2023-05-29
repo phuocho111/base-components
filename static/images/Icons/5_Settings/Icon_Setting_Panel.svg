@@ -1,0 +1,18 @@
+<svg id="Icon_Setting_Panel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_319" data-name="長方形 319" width="22" height="20.265" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon" transform="translate(1 2)" clip-path="url(#clip-path)">
+    <line id="線_68" data-name="線 68" x2="21.203" transform="translate(0.399 7.588)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_69" data-name="線 69" y2="14.418" transform="translate(11 0.38)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_70" data-name="線 70" y2="14.418" transform="translate(5.689 0.38)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_71" data-name="線 71" y2="14.418" transform="translate(16.311 0.38)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_72" data-name="線 72" y2="5.089" transform="translate(9.773 14.797)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_73" data-name="線 73" y2="5.089" transform="translate(12.227 14.797)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_74" data-name="線 74" x2="6.545" transform="translate(7.727 19.886)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <rect id="長方形_318" data-name="長方形 318" width="21.241" height="14.418" transform="translate(0.379 0.379)" fill="none" stroke="#5b758c" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Icon_Notifications" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_306" data-name="長方形 306" width="22" height="22" fill="none" stroke="#5b758c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="22" height="22" rx="10" fill="none"/>
+  <g id="Icon" clip-path="url(#clip-path)">
+    <path id="パス_69" data-name="パス 69" d="M4.5,17.5V7.5a4,4,0,0,1,4-4h5a4,4,0,0,1,4,4v10M11,0V3.5M0,17.5H22m-15,0a4,4,0,0,0,8,0" fill="none" stroke="#5b758c" stroke-width="1"/>
+  </g>
+</svg>

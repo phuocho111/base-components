@@ -1,0 +1,12 @@
+<svg id="Icon_Setting_Contact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_327" data-name="長方形 327" width="22" height="22" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="24" height="24" fill="none"/>
+  <g id="Icon" transform="translate(1 1)" clip-path="url(#clip-path)">
+    <path id="パス_109" data-name="パス 109" d="M8.561,13.087v4.446h9.054L22,21.921V7.746h-4.09" transform="translate(-0.858 -0.776)" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="パス_110" data-name="パス 110" d="M17.105.5H.5V16.71l4.388-4.349H17.105Z" transform="translate(-0.05 -0.05)" fill="none" stroke="#5b758c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

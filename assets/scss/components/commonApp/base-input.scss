@@ -1,0 +1,73 @@
+.base-input::v-deep {
+  position: relative;
+  z-index: 1;
+  .icon-search {
+    top: 12px !important;
+  }
+  .icon-password {
+    top: 14px !important;
+  }
+  .icon-password-hide {
+    top: 10px !important;
+  }
+  .password-hide {
+    input[type='password'] {
+      font: small-caption;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+    }
+  }
+  .text-input {
+    position: relative;
+    .v-input__control {
+      .v-input__slot {
+        border: 1px solid $semi_white_color !important;
+        padding: 6px 15px !important;
+      }
+    }
+    &.input-error {
+      .v-input__control {
+        .v-input__slot {
+          border: 1px solid $cranberry_color !important;
+        }
+      }
+    }
+    input::placeholder {
+      color: $lynch_color !important;
+    }
+    input {
+      height: 26px !important;
+      font-size: 14px !important;
+      line-height: 26px !important;
+      padding: 0 !important;
+    }
+    .v-text-field__suffix {
+      color: $lynch_color;
+      font-size: 14px;
+      height: 26px;
+      line-height: 26px;
+      letter-spacing: 0.7px;
+      padding-left: 15px;
+      font-weight: 400;
+    }
+  }
+  .input-with-icon {
+    .v-input__control {
+      .v-input__slot {
+        padding-right: 40px !important;
+      }
+    }
+  }
+  .error-message {
+    margin-top: 10px;
+    color: $cranberry_color;
+    margin-bottom: 0;
+    text-align: right;
+    height: 24px;
+    font-size: 13px;
+    letter-spacing: 0.325px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}

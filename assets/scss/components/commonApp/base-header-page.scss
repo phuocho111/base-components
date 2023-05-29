@@ -1,0 +1,88 @@
+@import '~vuetify/src/styles/styles.sass';
+.header-page-container {
+  padding: 0px 40px;
+  background-color: $blur-black-color;
+  position: relative;
+  z-index: 1;
+  div,
+  p {
+    font-family: 'Noto Sans JP';
+  }
+  .header-page-top {
+    padding: 8px 0;
+    height: 54px;
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+      gap: 16px;
+      min-height: 70px;
+      align-items: center;
+      &:only-child {
+        padding: 17px 0 0;
+      }
+      .header-page-left {
+        font-weight: 700;
+        letter-spacing: 2.7px;
+        display: flex;
+        align-items: center;
+        color: $white-color;
+        line-height: 36px;
+        font-family: 'Noto Sans JP';
+      }
+    }
+  }
+  .header-page-bottom {
+    height: 54px;
+    &:empty {
+      height: 0px;
+    }
+  }
+  .header-page-bottom:not(:empty) {
+    padding: 0 0 17px;
+  }
+}
+
+@media only screen and (max-width: 1179px) {
+  .d-none-sp {
+    display: none !important;
+  }
+  .header-page-container {
+    padding: 0 20px;
+    .header-page-top {
+      .header-page-left {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 599px) {
+  .header-page-container {
+    background-color: $mirage_light_color;
+    .header-page-top {
+      .header-page-left {
+        display: none;
+        font-size: 14px;
+      }
+      .header-top-building-info {
+        justify-content: flex-end;
+        border: 0;
+        padding: 0;
+      }
+    }
+    .header-page-bottom:not(:empty) {
+      padding: 0 0 8px;
+    }
+  }
+
+  .wrapper-header-sp {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px !important;
+    .hidden-sp {
+      display: none;
+    }
+  }
+}

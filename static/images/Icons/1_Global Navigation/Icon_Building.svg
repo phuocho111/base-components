@@ -1,0 +1,30 @@
+<svg id="Icon_Building" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_301" data-name="長方形 301" width="22" height="22" fill="none" stroke="#5b758c" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Area" width="22" height="22" fill="none"/>
+  <g id="Icon">
+    <path id="パス_60" data-name="パス 60" d="M0,21.483H0Z" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <g id="グループ_13" data-name="グループ 13">
+      <g id="グループ_12" data-name="グループ 12" clip-path="url(#clip-path)">
+        <line id="線_49" data-name="線 49" x2="22" transform="translate(0 21.483)" fill="none" stroke="#5b758c" stroke-width="1"/>
+        <path id="パス_61" data-name="パス 61" d="M17.5,22V3.5H4.5V22" fill="none" stroke="#5b758c" stroke-width="1"/>
+        <path id="パス_62" data-name="パス 62" d="M14.5,22V16h-7v6" fill="none" stroke="#5b758c" stroke-width="1"/>
+      </g>
+    </g>
+    <path id="パス_63" data-name="パス 63" d="M11,0V0Z" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <g id="グループ_15" data-name="グループ 15">
+      <g id="グループ_14" data-name="グループ 14" clip-path="url(#clip-path)">
+        <line id="線_50" data-name="線 50" y2="3" transform="translate(11)" fill="none" stroke="#5b758c" stroke-width="1"/>
+      </g>
+    </g>
+    <path id="パス_64" data-name="パス 64" d="M7,6.5H7Z" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_51" data-name="線 51" x2="8" transform="translate(7 6.5)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <path id="パス_65" data-name="パス 65" d="M7,9.5H7Z" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_52" data-name="線 52" x2="8" transform="translate(7 9.5)" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <path id="パス_66" data-name="パス 66" d="M7,12.5H7Z" fill="none" stroke="#5b758c" stroke-width="1"/>
+    <line id="線_53" data-name="線 53" x2="8" transform="translate(7 12.5)" fill="none" stroke="#5b758c" stroke-width="1"/>
+  </g>
+</svg>
